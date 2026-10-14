@@ -12,6 +12,7 @@ def index(request):
 # CORREÇÃO:        Settar cadastro_view em uma pagina de view, na url e no init.
 
 
+
 def cadastro_view (request):
     print('Página cadastro funfou!')
     return HttpResponse('Página inicial do cadastro')
