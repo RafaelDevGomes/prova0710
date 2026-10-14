@@ -7,5 +7,5 @@ class ProfessorForm(forms.ModelForm):
         model = Professor
         fields = ['nome', 'sobrenome', 'email', 'telefone', 'registro',]
 
-# ERRO ENCONTRADO: descrição clara do que estava errado
-# CORREÇÃO:        o que foi alterado e por quê
+# ERRO ENCONTRADO: Erro no models e no import.
+# CORREÇÃO:        O ponto na frente do models para reconhecer a classe Professor.
